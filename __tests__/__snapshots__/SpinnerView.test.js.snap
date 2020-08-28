@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  activeOpacity={0.5}
+  animationIn="zoomInDown"
+  animationInTiming={5000}
+  animationOut="zoomOutUp"
+  animationOutTiming={5000}
+  backdropOpacity={0}
+  backdropTransitionInTiming={5000}
+  backdropTransitionOutTiming={5000}
+  hardwareAccelerated={false}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0,0.3)",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 6,
+          "height": 110,
+          "justifyContent": "center",
+          "width": 170,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="black"
+        hidesWhenStopped={true}
+        size="large"
+      />
+      <Text
+        style={
+          Object {
+            "marginTop": 14,
+          }
+        }
+      />
+    </View>
+  </View>
+</Modal>
+`;

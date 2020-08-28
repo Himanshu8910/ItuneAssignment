@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with data 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgb(46,46,46)",
+        "borderColor": "black",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 240,
+        "margin": 4,
+        "width": 367,
+      },
+      undefined,
+    ]
+  }
+>
+  <View>
+    <Image
+      source={
+        Object {
+          "uri": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/24/46/97/24469731-f56f-29f6-67bd-53438f59ebcb/source/100x100bb.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 150,
+            "marginRight": 10,
+            "width": 362,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "margin": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Jack Johnson
+      </Text>
+      <View
+        style={
+          Object {
+            "marginTop": 8,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#999999",
+            }
+          }
+        >
+          Release date: 
+          <Text
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            01-Mar-2005
+          </Text>
+        </Text>
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "color": "#999999",
+            }
+          }
+        >
+          Collection: 
+          <Text
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            In Between Dreams (Bonus Track Version)
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
