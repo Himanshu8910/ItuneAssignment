@@ -29,7 +29,7 @@
 
 **Functionality:**
 
-1. On launch of the application, it shows and empty screen with a search bar at the top. 
+1. On launch of the application, it shows an empty screen with a search bar at the top. 
 2. Type in the search bar to search for content within the iTune Store, App Store, iBooks, music and videos and hit search button.
 3. The list of result will be displayed below the search bar.  
 4. Tap on the item to see more details.
